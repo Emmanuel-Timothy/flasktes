@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+    <html lang=en>
+    <title>training</title>
+</head>
+<body>
+    <form action= "{{url_for('predict')}}" method='POST'>
+        <input type="number" placeholder="masukan sepal length dalam cm" name="sepallength">
+        <input type="number" placeholder="masukan sepal width dalam cm" name="sepalwidth">
+        <input type="number" placeholder="masukan petal length dalam cm" name="petallength">
+        <input type="number" placeholder="masukan petal width dalam cm" name="petalwidth">
+        </a>
+    </form>
+    <a href="http://127.0.0.1:5000/" target="_blank">
+        <button>home</button>
+    </a>
+    <a href="http://127.0.0.1:5000/training" target="_blank">
+        <button>training</button>
+    </a>
+    <a href="http://127.0.0.1:5000/predict" target="_blank">
+        <button>predict</button>
+</body>
